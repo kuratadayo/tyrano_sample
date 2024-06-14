@@ -1,6 +1,6 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="走るか寝るかするモナカ"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
@@ -18,6 +18,7 @@
 
 [link target=*tag_sleep] →寝る [endlink][r]
 [link target=*tag_run] →走る [endlink][r]
+[link target=*tag_walk] →歩く [endlink][r]
 [s]
 
 *tag_sleep
@@ -42,5 +43,16 @@
 陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
 
 【 GOOD END 】[l][cm]
+
+*tag_walk
+
+[cm]
+
+[bg storage=walk.webp time=500]
+
+メロスは老人のように歩いた。[l][r]
+途中の宿で悠長に休息を取り、メロスが処刑場に着いたのは、勇者が処刑された後だった。[r]
+
+【FOOL END】[l][cm]
 
 [jump target=*start]
